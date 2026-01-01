@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+jupyter
+notebook
+surprise
+shap
+lime
+fairlearn
+mlflow
+tqdm
