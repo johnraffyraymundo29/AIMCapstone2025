@@ -19,3 +19,9 @@ app/pred_df.parquet
 app/movie_map.parquet
 *.parquet
 
+git rm --cached app/pred_df.parquet
+git rm --cached app/movie_map.parquet
+git rm --cached *.parquet
+git commit -m "chore: ignore large parquet artifacts"
+git push
+
