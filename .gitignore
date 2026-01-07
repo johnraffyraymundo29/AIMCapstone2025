@@ -13,3 +13,9 @@ data/raw/
 
 # Models / large artifacts
 models/
+
+# Large model artifacts (do not commit)
+app/pred_df.parquet
+app/movie_map.parquet
+*.parquet
+
