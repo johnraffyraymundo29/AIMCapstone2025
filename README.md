@@ -39,6 +39,18 @@ Model performance is evaluated using Root Mean Squared Error (RMSE).
 
 This qualitative check complements RMSE-based evaluation by confirming that the ranked outputs are meaningful beyond numerical metrics.
 
+## Model Artifacts
+
+Large model artifacts (`pred_df.parquet`, `movie_map.parquet`) are not
+committed to GitHub due to size limitations.
+
+To generate them:
+1. Run Notebook 03 (Model Training & Evaluation)
+2. Run Notebook 04 (Recommendation Generation)
+
+These notebooks will output the required parquet files for local deployment.
+
+
 ## How to Run
 
 All notebooks are designed to run in Google Colab.
